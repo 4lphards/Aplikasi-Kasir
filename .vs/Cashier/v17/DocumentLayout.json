@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\myalg\\source\\repos\\Cashier\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\models\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:models\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaleDetail.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\SaleDetail.cs",
+              "RelativeDocumentMoniker": "Models\\SaleDetail.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\SaleDetail.cs",
+              "RelativeToolTip": "Models\\SaleDetail.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAxwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:23:29.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Sale.cs",
+              "RelativeToolTip": "Models\\Sale.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIA4wBgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:19:23.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwBIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:17:39.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwBIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:12:06.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA4wCMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:03:18.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:02:36.526Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
