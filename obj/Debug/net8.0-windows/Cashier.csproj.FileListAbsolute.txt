@@ -85,7 +85,6 @@ C:\Users\myalg\source\repos\Cashier\bin\Debug\net8.0-windows\tr\Microsoft.CodeAn
 C:\Users\myalg\source\repos\Cashier\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\myalg\source\repos\Cashier\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.csproj.AssemblyReference.cache
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Form1.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.csproj.GenerateResource.cache
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.AssemblyInfoInputs.cache
@@ -98,3 +97,11 @@ C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\refint\Cashier.dll
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.pdb
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.genruntimeconfig.cache
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\ref\Cashier.dll
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Login.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminMainForm.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Properties.Resources.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminHomePage.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminReceiptPage.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminShopPage.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminStockPage.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminUserPage.resources

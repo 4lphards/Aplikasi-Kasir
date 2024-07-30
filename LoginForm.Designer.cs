@@ -36,6 +36,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Consolas", 25F);
             label1.Location = new Point(138, 41);
@@ -47,7 +48,7 @@
             // TbUsername
             // 
             TbUsername.Font = new Font("Consolas", 20F);
-            TbUsername.Location = new Point(43, 124);
+            TbUsername.Location = new Point(44, 131);
             TbUsername.Name = "TbUsername";
             TbUsername.PlaceholderText = " Username";
             TbUsername.Size = new Size(300, 39);
@@ -56,7 +57,7 @@
             // TbPassword
             // 
             TbPassword.Font = new Font("Consolas", 20F);
-            TbPassword.Location = new Point(43, 186);
+            TbPassword.Location = new Point(44, 193);
             TbPassword.Name = "TbPassword";
             TbPassword.PasswordChar = '*';
             TbPassword.PlaceholderText = " Password";
@@ -66,8 +67,11 @@
             // BtnLogin
             // 
             BtnLogin.AutoSize = true;
+            BtnLogin.FlatAppearance.BorderColor = Color.Black;
+            BtnLogin.FlatAppearance.BorderSize = 3;
+            BtnLogin.FlatStyle = FlatStyle.System;
             BtnLogin.Font = new Font("Consolas", 20F);
-            BtnLogin.Location = new Point(123, 249);
+            BtnLogin.Location = new Point(121, 271);
             BtnLogin.Name = "BtnLogin";
             BtnLogin.Size = new Size(138, 42);
             BtnLogin.TabIndex = 3;
@@ -77,6 +81,7 @@
             // 
             // Login
             // 
+            AcceptButton = BtnLogin;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(384, 361);
@@ -84,6 +89,9 @@
             Controls.Add(TbPassword);
             Controls.Add(TbUsername);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MaximumSize = new Size(400, 400);
+            MinimumSize = new Size(400, 400);
             Name = "Login";
             Text = "Login";
             ResumeLayout(false);

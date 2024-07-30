@@ -12,6 +12,11 @@ namespace Cashier
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
+            LoginAction();
+        }
+
+        private void LoginAction()
+        {
             User? user = Program.database.Users.FirstOrDefault(u => u.Username == TbUsername.Text && u.Password == TbPassword.Text);
 
             if (TbUsername.Text.Length == 0 || TbPassword.Text.Length == 0)
@@ -20,7 +25,8 @@ namespace Cashier
                 return;
             }
 
-            if (user == null) {
+            if (user == null)
+            {
                 MessageBox.Show("Username atau Password salah");
                 return;
             }

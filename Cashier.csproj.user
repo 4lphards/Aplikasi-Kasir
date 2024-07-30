@@ -4,7 +4,22 @@
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Pages\AdminHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Pages\AdminMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pages\AdminReceiptPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pages\AdminShopPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pages\AdminStockPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pages\AdminUserPage.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
