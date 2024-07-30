@@ -10,11 +10,11 @@ namespace Cashier.Models
     internal class SaleDetail
     {
         public int Id { get; set; }
-        public Product ProductId { get; set; }
-        public Sale SaleId { get; set; }
+        public Product Product { get; set; }
+        public Sale Sale { get; set; }
         public int Quantity { get; set; }
         public decimal SubTotalPrice { get; set; }
-        public User UserId { get; set; }
+        public User User { get; set; }
 
         public static void CreateModel(ModelBuilder model)
         {
@@ -22,11 +22,11 @@ namespace Cashier.Models
             {
                 e.HasKey(e => e.Id);
                 e.Property(e => e.Id).ValueGeneratedOnAdd();
-                e.HasOne(e => e.ProductId);
-                e.HasOne(e => e.SaleId);
                 e.Property(e => e.Quantity).HasColumnType("int").IsRequired();
                 e.Property(e => e.SubTotalPrice).HasColumnType("decimal(10,2)").IsRequired();
-                e.HasOne(e => e.UserId);
+                e.HasOne(e => e.Product);
+                e.HasOne(e => e.Sale);
+                e.HasOne(e => e.User);
             });
         }
     }
