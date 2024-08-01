@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cashier.Models
 {
-    internal class Customer
+    public class Customer
     {
         public int Id { get; set; }
         public string Nama { get; set; }

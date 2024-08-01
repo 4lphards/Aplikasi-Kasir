@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Cashier.Migrations
 {
     [DbContext(typeof(Database))]
-    [Migration("20240730021943_Initial-migration")]
-    partial class Initialmigration
+    [Migration("20240801021707_initial_Migration")]
+    partial class initial_Migration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

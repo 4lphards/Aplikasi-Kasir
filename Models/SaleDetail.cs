@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cashier.Models
 {
-    internal class SaleDetail
+    public class SaleDetail
     {
         public int Id { get; set; }
         public Product Product { get; set; }

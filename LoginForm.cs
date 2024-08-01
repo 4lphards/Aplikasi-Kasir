@@ -17,7 +17,7 @@ namespace Cashier
 
         private void LoginAction()
         {
-            User? user = Program.database.Users.FirstOrDefault(u => u.Username == TbUsername.Text && u.Password == TbPassword.Text);
+            User? user = Program.db.Users.FirstOrDefault(u => u.Username == TbUsername.Text && u.Password == TbPassword.Text);
 
             if (TbUsername.Text.Length == 0 || TbPassword.Text.Length == 0)
             {
@@ -46,6 +46,11 @@ namespace Cashier
                     MessageBox.Show("User Type tidak ditemukan");
                     break;
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

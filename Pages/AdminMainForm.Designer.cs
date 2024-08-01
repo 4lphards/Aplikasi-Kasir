@@ -48,7 +48,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.White;
+            panel2.BackColor = Color.WhiteSmoke;
             panel2.Controls.Add(BtnUser);
             panel2.Controls.Add(BtnStock);
             panel2.Controls.Add(BtnLogout);
@@ -60,46 +60,50 @@
             // 
             // BtnUser
             // 
+            BtnUser.BackColor = Color.White;
             BtnUser.BackgroundImage = (Image)resources.GetObject("BtnUser.BackgroundImage");
             BtnUser.BackgroundImageLayout = ImageLayout.Zoom;
             BtnUser.Location = new Point(15, 67);
             BtnUser.Name = "BtnUser";
             BtnUser.Size = new Size(40, 40);
             BtnUser.TabIndex = 5;
-            BtnUser.UseVisualStyleBackColor = true;
+            BtnUser.UseVisualStyleBackColor = false;
             BtnUser.Click += BtnUser_Click;
             // 
             // BtnStock
             // 
+            BtnStock.BackColor = Color.White;
             BtnStock.BackgroundImage = (Image)resources.GetObject("BtnStock.BackgroundImage");
             BtnStock.BackgroundImageLayout = ImageLayout.Zoom;
             BtnStock.Location = new Point(15, 122);
             BtnStock.Name = "BtnStock";
             BtnStock.Size = new Size(40, 40);
             BtnStock.TabIndex = 3;
-            BtnStock.UseVisualStyleBackColor = true;
+            BtnStock.UseVisualStyleBackColor = false;
             BtnStock.Click += BtnStock_Click;
             // 
             // BtnLogout
             // 
+            BtnLogout.BackColor = Color.White;
             BtnLogout.BackgroundImage = (Image)resources.GetObject("BtnLogout.BackgroundImage");
             BtnLogout.BackgroundImageLayout = ImageLayout.Zoom;
             BtnLogout.Location = new Point(15, 389);
             BtnLogout.Name = "BtnLogout";
             BtnLogout.Size = new Size(40, 40);
             BtnLogout.TabIndex = 2;
-            BtnLogout.UseVisualStyleBackColor = true;
+            BtnLogout.UseVisualStyleBackColor = false;
             BtnLogout.Click += BtnLogout_Click;
             // 
             // BtnHome
             // 
+            BtnHome.BackColor = Color.White;
             BtnHome.BackgroundImage = (Image)resources.GetObject("BtnHome.BackgroundImage");
             BtnHome.BackgroundImageLayout = ImageLayout.Zoom;
             BtnHome.Location = new Point(15, 12);
             BtnHome.Name = "BtnHome";
             BtnHome.Size = new Size(40, 40);
             BtnHome.TabIndex = 1;
-            BtnHome.UseVisualStyleBackColor = true;
+            BtnHome.UseVisualStyleBackColor = false;
             BtnHome.Click += BtnHome_Click;
             // 
             // AdminMainForm

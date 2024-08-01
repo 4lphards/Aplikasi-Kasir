@@ -101,7 +101,5 @@ C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Login.resou
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminMainForm.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Properties.Resources.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminHomePage.resources
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminReceiptPage.resources
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminShopPage.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminStockPage.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminUserPage.resources
