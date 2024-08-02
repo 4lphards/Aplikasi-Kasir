@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Cashier.Pages
 {
-    public partial class AdminMainForm : Form
+    public partial class AdminMainPage : Form
     {
-        public AdminMainForm()
+        public AdminMainPage()
         {
             InitializeComponent();
             ShowHomePage();

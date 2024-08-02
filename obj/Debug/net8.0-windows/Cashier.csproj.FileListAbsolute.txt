@@ -98,8 +98,8 @@ C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.pdb
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.genruntimeconfig.cache
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\ref\Cashier.dll
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Login.resources
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminMainForm.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Properties.Resources.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminHomePage.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminStockPage.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminUserPage.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminMainPage.resources

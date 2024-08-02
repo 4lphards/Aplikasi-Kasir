@@ -1,6 +1,6 @@
 ﻿namespace Cashier.Pages
 {
-    partial class AdminMainForm
+    partial class AdminMainPage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminMainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminMainPage));
             panel1 = new Panel();
             panel2 = new Panel();
             BtnUser = new Button();

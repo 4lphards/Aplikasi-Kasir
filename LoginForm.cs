@@ -34,8 +34,8 @@ namespace Cashier
             switch (user.User_Type)
             {
                 case "Admin":
-                    AdminMainForm adminMainForm = new AdminMainForm();
-                    adminMainForm.Show();
+                    AdminMainPage adminMainPage = new AdminMainPage();
+                    adminMainPage.Show();
                     this.Hide();
                     break;
 

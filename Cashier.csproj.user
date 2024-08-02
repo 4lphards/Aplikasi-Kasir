@@ -7,7 +7,7 @@
     <Compile Update="Pages\AdminHomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Pages\AdminMainForm.cs">
+    <Compile Update="Pages\AdminMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Pages\AdminStockPage.cs">
