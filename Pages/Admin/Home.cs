@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Cashier.Pages
+namespace Cashier.Pages.Admin
 {
-    public partial class AdminUserPage : Form
+    public partial class Home : Form
     {
-        public AdminUserPage()
+        public Home()
         {
             InitializeComponent();
         }

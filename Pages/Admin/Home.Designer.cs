@@ -1,6 +1,6 @@
-﻿namespace Cashier.Pages
+﻿namespace Cashier.Pages.Admin
 {
-    partial class AdminHomePage
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             SuspendLayout();
             // 
-            // AdminHomePage
+            // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(618, 402);
-            Name = "AdminHomePage";
-            ShowInTaskbar = false;
-            Text = "AdminHomePage";
+            Name = "Home";
+            Text = "Home";
             ResumeLayout(false);
         }
 

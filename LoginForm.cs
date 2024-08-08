@@ -17,7 +17,7 @@ namespace Cashier
 
         private void LoginAction()
         {
-            User? user = Program.db.Users.FirstOrDefault(u => u.Username == TbUsername.Text && u.Password == TbPassword.Text);
+            Models.User? user = Program.db.Users.FirstOrDefault(u => u.Username == TbUsername.Text && u.Password == TbPassword.Text);
 
             if (TbUsername.Text.Length == 0 || TbPassword.Text.Length == 0)
             {
@@ -34,7 +34,7 @@ namespace Cashier
             switch (user.User_Type)
             {
                 case "Admin":
-                    AdminMainPage adminMainPage = new AdminMainPage();
+                    Main adminMainPage = new Main();
                     adminMainPage.Show();
                     this.Hide();
                     break;

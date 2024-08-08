@@ -1,6 +1,6 @@
 ﻿namespace Cashier.Pages
 {
-    partial class AdminMainPage
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminMainPage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             panel1 = new Panel();
             panel2 = new Panel();
             BtnUser = new Button();
@@ -106,7 +106,7 @@
             BtnHome.UseVisualStyleBackColor = false;
             BtnHome.Click += BtnHome_Click;
             // 
-            // AdminMainForm
+            // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -116,8 +116,8 @@
             MaximizeBox = false;
             MaximumSize = new Size(720, 480);
             MinimumSize = new Size(720, 480);
-            Name = "AdminMainForm";
-            Text = "AdminMainForm";
+            Name = "Main";
+            Text = "Main";
             panel2.ResumeLayout(false);
             ResumeLayout(false);
         }

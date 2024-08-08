@@ -99,7 +99,11 @@ C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.genruntimec
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\ref\Cashier.dll
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Login.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Properties.Resources.resources
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminHomePage.resources
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminStockPage.resources
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminUserPage.resources
-C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.AdminMainPage.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Main.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Stock.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.User.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Admin.Home.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Product.PAdd.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Product.PEdit.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Users.UAdd.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Users.UEdit.resources

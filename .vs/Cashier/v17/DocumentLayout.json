@@ -3,32 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\myalg\\source\\repos\\Cashier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\adminstockpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\adminstockpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\actions\\users\\uadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\users\\uadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\actions\\users\\uedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\users\\uedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\actions\\users\\uedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\users\\uedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\admin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\admin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\admin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\admin\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\admin\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\admin\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\admin\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\admin\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\actions\\product\\pedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\product\\pedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\actions\\users\\uadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\users\\uadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\actions\\users\\uadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\users\\uadd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\admin\\user.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\admin\\user.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\admin\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\admin\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\admin\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\admin\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\actions\\product\\padd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\product\\padd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\actions\\product\\pedit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\product\\pedit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\actions\\product\\padd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\actions\\product\\padd.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\pages\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\adminstockpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\adminstockpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -63,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:pages\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\myalg\\source\\repos\\Cashier\\Migrations\\20240730021753_Initial Migratin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240730021753_Initial Migratin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -81,6 +125,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|c:\\users\\myalg\\source\\repos\\cashier\\migrations\\20240801021707_initial_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B070544-835B-4D47-99C1-06DD443848EE}|Cashier.csproj|solutionrelative:migrations\\20240801021707_initial_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\myalg\\source\\repos\\cashier\\pages\\adminuserpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\adminuserpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminMainPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\AdminMainPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminStockPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\AdminStockPage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\adminmainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\myalg\\source\\repos\\Cashier\\pages\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,36 +154,275 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UEdit.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UEdit.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Users\\UEdit.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UEdit.cs",
+              "RelativeToolTip": "Pages\\Actions\\Users\\UEdit.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:28:18.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stock.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Stock.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Stock.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Stock.cs [Design]",
+              "RelativeToolTip": "Pages\\Admin\\Stock.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:13:22.862Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\User.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\User.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\User.cs [Design]",
+              "RelativeToolTip": "Pages\\Admin\\User.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:13:20.736Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\User.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\User.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\User.cs",
+              "RelativeToolTip": "Pages\\Admin\\User.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:12:13.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UAdd.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Users\\UAdd.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UAdd.cs [Design]",
+              "RelativeToolTip": "Pages\\Actions\\Users\\UAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:06:39.135Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Stock.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Stock.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Stock.cs",
+              "RelativeToolTip": "Pages\\Admin\\Stock.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAvwF0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:09:56.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UAdd.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UAdd.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Users\\UAdd.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UAdd.cs",
+              "RelativeToolTip": "Pages\\Actions\\Users\\UAdd.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAnwA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:06:18.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UEdit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UEdit.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Users\\UEdit.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UEdit.cs [Design]",
+              "RelativeToolTip": "Pages\\Actions\\Users\\UEdit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:25:40.288Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PEdit.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PEdit.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Product\\PEdit.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PEdit.cs",
+              "RelativeToolTip": "Pages\\Actions\\Product\\PEdit.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:38:05.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\User.Designer.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\User.Designer.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\User.Designer.cs",
+              "RelativeToolTip": "Pages\\Admin\\User.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:12:26.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UAdd.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UAdd.Designer.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Users\\UAdd.Designer.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Users\\UAdd.Designer.cs",
+              "RelativeToolTip": "Pages\\Actions\\Users\\UAdd.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:07:40.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Main.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Main.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Main.cs [Design]",
+              "RelativeToolTip": "Pages\\Admin\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:13:24.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Home.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\Home.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Admin\\Home.cs [Design]",
+              "RelativeToolTip": "Pages\\Admin\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:13:26.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PAdd.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Product\\PAdd.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PAdd.cs [Design]",
+              "RelativeToolTip": "Pages\\Actions\\Product\\PAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:03:17.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PEdit.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PEdit.Designer.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Product\\PEdit.Designer.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PEdit.Designer.cs",
+              "RelativeToolTip": "Pages\\Actions\\Product\\PEdit.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:03:27.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PAdd.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PAdd.Designer.cs",
+              "RelativeDocumentMoniker": "Pages\\Actions\\Product\\PAdd.Designer.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\Actions\\Product\\PAdd.Designer.cs",
+              "RelativeToolTip": "Pages\\Actions\\Product\\PAdd.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:03:23.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminUserPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminUserPage.cs",
+              "RelativeDocumentMoniker": "Pages\\AdminUserPage.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminUserPage.cs [Design]",
+              "RelativeToolTip": "Pages\\AdminUserPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T02:36:50.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T02:25:25.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminMainPage.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminMainPage.cs",
+              "RelativeDocumentMoniker": "Pages\\AdminMainPage.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminMainPage.cs",
+              "RelativeToolTip": "Pages\\AdminMainPage.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T06:03:07.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminStockPage.cs",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminStockPage.cs",
+              "RelativeDocumentMoniker": "Pages\\AdminStockPage.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminStockPage.cs",
+              "RelativeToolTip": "Pages\\AdminStockPage.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAtwI4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T02:20:40.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T02:37:34.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "AdminMainPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminMainPage.cs",
               "RelativeDocumentMoniker": "Pages\\AdminMainPage.cs",
               "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminMainPage.cs [Design]",
               "RelativeToolTip": "Pages\\AdminMainPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T08:11:51.683Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-02T08:11:51.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminStockPage.cs",
-              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminStockPage.cs",
-              "RelativeDocumentMoniker": "Pages\\AdminStockPage.cs",
-              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminStockPage.cs",
-              "RelativeToolTip": "Pages\\AdminStockPage.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwEgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T02:20:40.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Database.cs",
               "RelativeDocumentMoniker": "Database.cs",
@@ -131,45 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminMainPage.cs",
-              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminMainPage.cs",
-              "RelativeDocumentMoniker": "Pages\\AdminMainPage.cs",
-              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminMainPage.cs",
-              "RelativeToolTip": "Pages\\AdminMainPage.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA6wBcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T06:03:07.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs [Design]",
-              "RelativeToolTip": "LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T02:37:34.908Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.cs",
-              "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T02:25:25.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
@@ -177,24 +442,11 @@
               "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:17:39.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T08:17:39.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminStockPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminStockPage.cs",
-              "RelativeDocumentMoniker": "Pages\\AdminStockPage.cs",
-              "ToolTip": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminStockPage.cs [Design]",
-              "RelativeToolTip": "Pages\\AdminStockPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T04:07:24.532Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -205,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -217,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -229,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "20240801021707_initial_Migration.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Migrations\\20240801021707_initial_Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240801021707_initial_Migration.cs",
@@ -241,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -253,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "SaleDetail.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\SaleDetail.cs",
               "RelativeDocumentMoniker": "Models\\SaleDetail.cs",
@@ -265,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Models\\Sale.cs",
               "RelativeDocumentMoniker": "Models\\Sale.cs",
@@ -277,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 26,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "LoginForm.Designer.cs",
@@ -285,12 +537,11 @@
               "RelativeToolTip": "LoginForm.Designer.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAAwGEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T02:11:50.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T02:11:50.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 35,
               "Title": "AdminHomePage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Pages\\AdminHomePage.cs",
               "RelativeDocumentMoniker": "Pages\\AdminHomePage.cs",
@@ -301,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "20240730021753_Initial Migratin.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Migrations\\20240730021753_Initial Migratin.cs",
               "RelativeDocumentMoniker": "Migrations\\20240730021753_Initial Migratin.cs",
@@ -312,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "20240730021248_Initial-Migration.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Migrations\\20240730021248_Initial-Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240730021248_Initial-Migration.cs",
@@ -323,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "20240730020817_Inital Migration.cs",
               "DocumentMoniker": "C:\\Users\\myalg\\source\\repos\\Cashier\\Migrations\\20240730020817_Inital Migration.cs",
               "RelativeDocumentMoniker": "Migrations\\20240730020817_Inital Migration.cs",

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cashier.Pages.Admin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Cashier.Pages
 {
-    public partial class AdminMainPage : Form
+    public partial class Main : Form
     {
-        public AdminMainPage()
+        public Main()
         {
             InitializeComponent();
             ShowHomePage();
@@ -32,7 +33,7 @@ namespace Cashier.Pages
 
         private void BtnStock_Click(object sender, EventArgs e)
         {
-            AdminStockPage adminStockPage = new AdminStockPage();
+            Stock adminStockPage = new Stock();
             adminStockPage.TopLevel = false;
             adminStockPage.Dock = DockStyle.Fill;
             adminStockPage.FormBorderStyle = FormBorderStyle.None;
@@ -43,7 +44,7 @@ namespace Cashier.Pages
 
         private void BtnUser_Click(object sender, EventArgs e)
         {
-            AdminUserPage adminUserPage = new AdminUserPage();
+            User adminUserPage = new User();
             adminUserPage.TopLevel = false;
             adminUserPage.Dock = DockStyle.Fill;
             adminUserPage.FormBorderStyle = FormBorderStyle.None;
@@ -54,7 +55,7 @@ namespace Cashier.Pages
 
         private void ShowHomePage()
         {
-            AdminHomePage adminHomePage = new AdminHomePage();
+            Home adminHomePage = new Home();
             adminHomePage.TopLevel = false;
             adminHomePage.Dock = DockStyle.Fill;
             adminHomePage.FormBorderStyle = FormBorderStyle.None;
