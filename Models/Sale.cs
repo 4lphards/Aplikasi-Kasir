@@ -13,6 +13,7 @@ namespace Cashier.Models
         public DateTime SaleDate { get; set; }
         public decimal TotalPrice { get; set; }
         public Customer Customer { get; set; }
+        public User User { get; set; }
 
         public static void CreateModel(ModelBuilder model)
         {
@@ -23,6 +24,7 @@ namespace Cashier.Models
                 e.Property(e => e.SaleDate).HasColumnType("date").IsRequired();
                 e.Property(e => e.TotalPrice).HasColumnType("decimal(10,2)").IsRequired();
                 e.HasOne(e => e.Customer);
+                e.HasOne(e => e.User);
             });
         }
     }

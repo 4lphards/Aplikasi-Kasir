@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Cashier.Migrations
 {
     /// <inheritdoc />
-    public partial class initial_Migration : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -68,7 +68,8 @@ namespace Cashier.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     SaleDate = table.Column<DateTime>(type: "date", nullable: false),
                     TotalPrice = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
-                    CustomerId = table.Column<int>(type: "integer", nullable: false)
+                    CustomerId = table.Column<int>(type: "integer", nullable: false),
+                    UserId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -77,6 +78,12 @@ namespace Cashier.Migrations
                         name: "FK_Sales_Customers_CustomerId",
                         column: x => x.CustomerId,
                         principalTable: "Customers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Sales_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -90,8 +97,7 @@ namespace Cashier.Migrations
                     ProductId = table.Column<int>(type: "integer", nullable: false),
                     SaleId = table.Column<int>(type: "integer", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
-                    SubTotalPrice = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
-                    UserId = table.Column<int>(type: "integer", nullable: false)
+                    SubTotalPrice = table.Column<decimal>(type: "numeric(10,2)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -108,12 +114,6 @@ namespace Cashier.Migrations
                         principalTable: "Sales",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_SaleDetails_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -127,14 +127,14 @@ namespace Cashier.Migrations
                 column: "SaleId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SaleDetails_UserId",
-                table: "SaleDetails",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Sales_CustomerId",
                 table: "Sales",
                 column: "CustomerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Sales_UserId",
+                table: "Sales",
+                column: "UserId");
         }
 
         /// <inheritdoc />
@@ -150,10 +150,10 @@ namespace Cashier.Migrations
                 name: "Sales");
 
             migrationBuilder.DropTable(
-                name: "Users");
+                name: "Customers");
 
             migrationBuilder.DropTable(
-                name: "Customers");
+                name: "Users");
         }
     }
 }

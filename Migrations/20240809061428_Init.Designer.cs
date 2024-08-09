@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Cashier.Migrations
 {
     [DbContext(typeof(Database))]
-    [Migration("20240801021707_initial_Migration")]
-    partial class initial_Migration
+    [Migration("20240809061428_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -90,9 +90,14 @@ namespace Cashier.Migrations
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(10,2)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CustomerId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Sales");
                 });
@@ -117,16 +122,11 @@ namespace Cashier.Migrations
                     b.Property<decimal>("SubTotalPrice")
                         .HasColumnType("decimal(10,2)");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
 
                     b.HasIndex("ProductId");
 
                     b.HasIndex("SaleId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("SaleDetails");
                 });
@@ -176,7 +176,15 @@ namespace Cashier.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Cashier.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Customer");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Cashier.Models.SaleDetail", b =>
@@ -193,17 +201,9 @@ namespace Cashier.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Cashier.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Product");
 
                     b.Navigation("Sale");
-
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

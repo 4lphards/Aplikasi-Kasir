@@ -166,7 +166,7 @@
             // 
             phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "PhoneNumber";
             phoneNumberDataGridViewTextBoxColumn.FillWeight = 120.381424F;
-            phoneNumberDataGridViewTextBoxColumn.HeaderText = "PhoneNumber";
+            phoneNumberDataGridViewTextBoxColumn.HeaderText = "Phone";
             phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
             phoneNumberDataGridViewTextBoxColumn.ReadOnly = true;
             // 

@@ -13,16 +13,16 @@ namespace Cashier.Pages
 {
     public partial class Main : Form
     {
-        public Main()
+        private Login Login;
+        public Main(Login login)
         {
             InitializeComponent();
             ShowHomePage();
+            Login = login;
         }
 
         private void BtnLogout_Click(object sender, EventArgs e)
         {
-            Login loginform = new Login();
-            loginform.Show();
             this.Close();
         }
 
@@ -62,6 +62,11 @@ namespace Cashier.Pages
             panel1.Controls.Clear();
             panel1.Controls.Add(adminHomePage);
             adminHomePage.Show();
+        }
+
+        private void Main_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Login.Show();
         }
     }
 }

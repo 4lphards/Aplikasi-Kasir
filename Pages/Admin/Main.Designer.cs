@@ -118,6 +118,7 @@
             MinimumSize = new Size(720, 480);
             Name = "Main";
             Text = "Main";
+            FormClosed += Main_FormClosed;
             panel2.ResumeLayout(false);
             ResumeLayout(false);
         }

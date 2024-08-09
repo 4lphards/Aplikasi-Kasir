@@ -15,6 +15,12 @@ namespace Cashier
             LoginAction();
         }
 
+        private void ClearText()
+        {
+            TbUsername.Text = "";
+            TbPassword.Text = "";
+        }
+
         private void LoginAction()
         {
             Models.User? user = Program.db.Users.FirstOrDefault(u => u.Username == TbUsername.Text && u.Password == TbPassword.Text);
@@ -34,8 +40,9 @@ namespace Cashier
             switch (user.User_Type)
             {
                 case "Admin":
-                    Main adminMainPage = new Main();
+                    Main adminMainPage = new Main(this);
                     adminMainPage.Show();
+                    ClearText();
                     this.Hide();
                     break;
 
