@@ -38,18 +38,18 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(70, 24);
+            label2.Location = new Point(60, 23);
             label2.Name = "label2";
-            label2.Size = new Size(131, 23);
+            label2.Size = new Size(153, 23);
             label2.TabIndex = 1;
-            label2.Text = "Add Product";
+            label2.Text = "Tambah Produk";
             // 
             // TbName
             // 
             TbName.BackColor = Color.WhiteSmoke;
             TbName.Location = new Point(12, 70);
             TbName.Name = "TbName";
-            TbName.PlaceholderText = " Name";
+            TbName.PlaceholderText = " Nama";
             TbName.Size = new Size(245, 31);
             TbName.TabIndex = 2;
             // 
@@ -58,7 +58,7 @@
             TbPrice.BackColor = Color.WhiteSmoke;
             TbPrice.Location = new Point(12, 119);
             TbPrice.Name = "TbPrice";
-            TbPrice.PlaceholderText = " Price";
+            TbPrice.PlaceholderText = " Harga";
             TbPrice.Size = new Size(245, 31);
             TbPrice.TabIndex = 3;
             // 
@@ -75,15 +75,15 @@
             // 
             BtnAdd.AutoSize = true;
             BtnAdd.BackColor = Color.WhiteSmoke;
-            BtnAdd.Location = new Point(184, 227);
+            BtnAdd.Location = new Point(171, 227);
             BtnAdd.Name = "BtnAdd";
-            BtnAdd.Size = new Size(73, 33);
+            BtnAdd.Size = new Size(86, 33);
             BtnAdd.TabIndex = 5;
-            BtnAdd.Text = "Add";
+            BtnAdd.Text = "Tambah";
             BtnAdd.UseVisualStyleBackColor = false;
             BtnAdd.Click += BtnAdd_Click;
             // 
-            // AddProduct
+            // PAdd
             // 
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -96,7 +96,7 @@
             Controls.Add(label2);
             Font = new Font("Consolas", 15F);
             Margin = new Padding(5);
-            Name = "AddProduct";
+            Name = "PAdd";
             StartPosition = FormStartPosition.CenterParent;
             Text = "AddProduct";
             ResumeLayout(false);

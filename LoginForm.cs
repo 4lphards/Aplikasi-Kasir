@@ -40,13 +40,16 @@ namespace Cashier
             switch (user.User_Type)
             {
                 case "Admin":
-                    Main adminMainPage = new Main(this);
+                    Main adminMainPage = new Main(this, user);
                     adminMainPage.Show();
                     ClearText();
                     this.Hide();
                     break;
 
                 case "Staff":
+                    break;
+
+                case "Cashier":
                     break;
 
                 default:

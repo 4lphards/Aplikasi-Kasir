@@ -7,6 +7,9 @@
     <Compile Update="Pages\Actions\Product\PAdd.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Pages\Actions\Product\PSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Pages\Actions\Users\UAdd.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -52,7 +52,7 @@
             TbStock.BackColor = Color.WhiteSmoke;
             TbStock.Location = new Point(12, 164);
             TbStock.Name = "TbStock";
-            TbStock.PlaceholderText = " Stock";
+            TbStock.PlaceholderText = " Stok";
             TbStock.Size = new Size(245, 31);
             TbStock.TabIndex = 9;
             // 
@@ -61,7 +61,7 @@
             TbPrice.BackColor = Color.WhiteSmoke;
             TbPrice.Location = new Point(12, 113);
             TbPrice.Name = "TbPrice";
-            TbPrice.PlaceholderText = " Price";
+            TbPrice.PlaceholderText = " Harga";
             TbPrice.Size = new Size(245, 31);
             TbPrice.TabIndex = 8;
             // 
@@ -70,20 +70,20 @@
             TbName.BackColor = Color.WhiteSmoke;
             TbName.Location = new Point(12, 64);
             TbName.Name = "TbName";
-            TbName.PlaceholderText = " Name";
+            TbName.PlaceholderText = " Nama";
             TbName.Size = new Size(245, 31);
             TbName.TabIndex = 7;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(61, 20);
+            label2.Location = new Point(70, 21);
             label2.Name = "label2";
-            label2.Size = new Size(142, 23);
+            label2.Size = new Size(131, 23);
             label2.TabIndex = 6;
-            label2.Text = "Edit Product";
+            label2.Text = "Edit Produk";
             // 
-            // EditProduct
+            // PEdit
             // 
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -96,7 +96,7 @@
             Controls.Add(label2);
             Font = new Font("Consolas", 15F);
             Margin = new Padding(5);
-            Name = "EditProduct";
+            Name = "PEdit";
             SizeGripStyle = SizeGripStyle.Show;
             Text = "EditProduct";
             ResumeLayout(false);

@@ -43,11 +43,11 @@
             // 
             BtnAdd.AutoSize = true;
             BtnAdd.BackColor = Color.WhiteSmoke;
-            BtnAdd.Location = new Point(184, 340);
+            BtnAdd.Location = new Point(171, 340);
             BtnAdd.Name = "BtnAdd";
-            BtnAdd.Size = new Size(73, 33);
+            BtnAdd.Size = new Size(86, 33);
             BtnAdd.TabIndex = 7;
-            BtnAdd.Text = "Add";
+            BtnAdd.Text = "Tambah";
             BtnAdd.UseVisualStyleBackColor = false;
             BtnAdd.Click += BtnAdd_Click;
             // 
@@ -57,7 +57,7 @@
             TbAddress.Location = new Point(12, 142);
             TbAddress.Multiline = true;
             TbAddress.Name = "TbAddress";
-            TbAddress.PlaceholderText = " Address";
+            TbAddress.PlaceholderText = " Alamat";
             TbAddress.Size = new Size(245, 67);
             TbAddress.TabIndex = 3;
             // 
@@ -66,18 +66,18 @@
             TbName.BackColor = Color.WhiteSmoke;
             TbName.Location = new Point(12, 68);
             TbName.Name = "TbName";
-            TbName.PlaceholderText = " Name";
+            TbName.PlaceholderText = " Nama";
             TbName.Size = new Size(245, 31);
             TbName.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(84, 22);
+            label2.Location = new Point(50, 22);
             label2.Name = "label2";
-            label2.Size = new Size(98, 23);
+            label2.Size = new Size(175, 23);
             label2.TabIndex = 11;
-            label2.Text = "Add User";
+            label2.Text = "Tambah Pengguna";
             // 
             // CbUserType
             // 
@@ -95,7 +95,7 @@
             TbPhone.BackColor = Color.WhiteSmoke;
             TbPhone.Location = new Point(12, 215);
             TbPhone.Name = "TbPhone";
-            TbPhone.PlaceholderText = " Phone Number";
+            TbPhone.PlaceholderText = " No Telepon";
             TbPhone.Size = new Size(245, 31);
             TbPhone.TabIndex = 4;
             // 
@@ -124,9 +124,9 @@
             label1.Name = "label1";
             label1.Size = new Size(54, 23);
             label1.TabIndex = 20;
-            label1.Text = "Type";
+            label1.Text = "Tipe";
             // 
-            // AddUser
+            // UAdd
             // 
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -143,7 +143,7 @@
             Controls.Add(label2);
             Font = new Font("Consolas", 15F);
             Margin = new Padding(5);
-            Name = "AddUser";
+            Name = "UAdd";
             Text = "AddUser";
             ResumeLayout(false);
             PerformLayout();

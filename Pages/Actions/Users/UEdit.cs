@@ -34,7 +34,7 @@ namespace Cashier.Pages.Actions.Users
 
         private void BtnAdd_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Are you sure you want to edit this user?", "Edit User", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Anda yakin ingin mengedit pengguna ini?", "Edit Pengguna", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (dialogResult == DialogResult.Yes)
             {

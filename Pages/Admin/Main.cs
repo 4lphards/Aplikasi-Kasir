@@ -14,15 +14,18 @@ namespace Cashier.Pages
     public partial class Main : Form
     {
         private Login Login;
-        public Main(Login login)
+        private Models.User User;
+        public Main(Login _login, Models.User _user)
         {
             InitializeComponent();
             ShowHomePage();
-            Login = login;
+            Login = _login;
+            User = _user;
         }
 
         private void BtnLogout_Click(object sender, EventArgs e)
         {
+            Login.Show();
             this.Close();
         }
 
@@ -55,7 +58,7 @@ namespace Cashier.Pages
 
         private void ShowHomePage()
         {
-            Home adminHomePage = new Home();
+            Home adminHomePage = new Home(User);
             adminHomePage.TopLevel = false;
             adminHomePage.Dock = DockStyle.Fill;
             adminHomePage.FormBorderStyle = FormBorderStyle.None;

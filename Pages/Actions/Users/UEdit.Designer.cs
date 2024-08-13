@@ -57,7 +57,7 @@
             label1.Name = "label1";
             label1.Size = new Size(54, 23);
             label1.TabIndex = 29;
-            label1.Text = "Type";
+            label1.Text = "Tipe";
             // 
             // TbPassword
             // 
@@ -82,7 +82,7 @@
             TbPhone.BackColor = Color.WhiteSmoke;
             TbPhone.Location = new Point(12, 210);
             TbPhone.Name = "TbPhone";
-            TbPhone.PlaceholderText = " Phone Number";
+            TbPhone.PlaceholderText = " No Telepon";
             TbPhone.Size = new Size(245, 31);
             TbPhone.TabIndex = 24;
             // 
@@ -104,7 +104,7 @@
             TbAddress.Location = new Point(12, 137);
             TbAddress.Multiline = true;
             TbAddress.Name = "TbAddress";
-            TbAddress.PlaceholderText = " Address";
+            TbAddress.PlaceholderText = " Alamat";
             TbAddress.Size = new Size(245, 67);
             TbAddress.TabIndex = 23;
             // 
@@ -113,18 +113,18 @@
             TbName.BackColor = Color.WhiteSmoke;
             TbName.Location = new Point(12, 63);
             TbName.Name = "TbName";
-            TbName.PlaceholderText = " Name";
+            TbName.PlaceholderText = " Nama";
             TbName.Size = new Size(245, 31);
             TbName.TabIndex = 21;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(83, 19);
+            label2.Location = new Point(64, 21);
             label2.Name = "label2";
-            label2.Size = new Size(109, 23);
+            label2.Size = new Size(153, 23);
             label2.TabIndex = 28;
-            label2.Text = "Edit User";
+            label2.Text = "Edit Pengguna";
             // 
             // UEdit
             // 

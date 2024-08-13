@@ -44,7 +44,7 @@ namespace Cashier.Pages
         {
             if (RowIndex < 0)
             {
-                MessageBox.Show("Please select a user first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Tolong pilih pengguna terlebih dahulu", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -71,11 +71,11 @@ namespace Cashier.Pages
         {
             if (RowIndex < 0)
             {
-                MessageBox.Show("Please select a user first", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Tolong pilih pengguna terlebih dahulu", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            DialogResult result = MessageBox.Show("Are you sure you want to remove this user?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            DialogResult result = MessageBox.Show("Anda yakin ingin menghapus pengguna ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
             if (result == DialogResult.Yes) {
                 var id = Convert.ToInt32(SelectedRow.Cells[0].Value);

@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
             DGVProduct = new DataGridView();
-            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            priceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            stockDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             productBindingSource = new BindingSource(components);
             TbSearch = new TextBox();
             BtnAdd = new Button();
             BtnEdit = new Button();
             BtnRemove = new Button();
+            Id = new DataGridViewTextBoxColumn();
+            nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            priceDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            stockDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)DGVProduct).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productBindingSource).BeginInit();
             SuspendLayout();
@@ -55,16 +57,16 @@
             DGVProduct.BackgroundColor = Color.WhiteSmoke;
             DGVProduct.BorderStyle = BorderStyle.Fixed3D;
             DGVProduct.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Consolas", 10F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            DGVProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = SystemColors.Control;
+            dataGridViewCellStyle9.Font = new Font("Consolas", 10F);
+            dataGridViewCellStyle9.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
+            DGVProduct.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             DGVProduct.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DGVProduct.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn, priceDataGridViewTextBoxColumn, stockDataGridViewTextBoxColumn });
+            DGVProduct.Columns.AddRange(new DataGridViewColumn[] { Id, nameDataGridViewTextBoxColumn, priceDataGridViewTextBoxColumn, stockDataGridViewTextBoxColumn });
             DGVProduct.DataSource = productBindingSource;
             DGVProduct.Location = new Point(12, 58);
             DGVProduct.MultiSelect = false;
@@ -78,38 +80,6 @@
             DGVProduct.CellClick += DGVProduct_ContentCellClick;
             DGVProduct.CellContentClick += DGVProduct_ContentCellClick;
             // 
-            // idDataGridViewTextBoxColumn
-            // 
-            idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            idDataGridViewTextBoxColumn.FillWeight = 24.3654823F;
-            idDataGridViewTextBoxColumn.HeaderText = "Id";
-            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            idDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            nameDataGridViewTextBoxColumn.FillWeight = 125.21151F;
-            nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            nameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // priceDataGridViewTextBoxColumn
-            // 
-            priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
-            priceDataGridViewTextBoxColumn.FillWeight = 125.21151F;
-            priceDataGridViewTextBoxColumn.HeaderText = "Price";
-            priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
-            priceDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // stockDataGridViewTextBoxColumn
-            // 
-            stockDataGridViewTextBoxColumn.DataPropertyName = "Stock";
-            stockDataGridViewTextBoxColumn.FillWeight = 125.21151F;
-            stockDataGridViewTextBoxColumn.HeaderText = "Stock";
-            stockDataGridViewTextBoxColumn.Name = "stockDataGridViewTextBoxColumn";
-            stockDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // productBindingSource
             // 
             productBindingSource.DataSource = typeof(Models.Product);
@@ -120,7 +90,7 @@
             TbSearch.Font = new Font("Consolas", 12F);
             TbSearch.Location = new Point(435, 26);
             TbSearch.Name = "TbSearch";
-            TbSearch.PlaceholderText = " Search Name";
+            TbSearch.PlaceholderText = " Cari Nama Produk";
             TbSearch.Size = new Size(171, 26);
             TbSearch.TabIndex = 7;
             TbSearch.TextChanged += TbSearch_TextChanged;
@@ -161,12 +131,60 @@
             BtnRemove.UseVisualStyleBackColor = true;
             BtnRemove.Click += BtnRemove_Click;
             // 
+            // Id
+            // 
+            Id.DataPropertyName = "Id";
+            Id.FillWeight = 24.1438866F;
+            Id.HeaderText = "Id";
+            Id.Name = "Id";
+            Id.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            nameDataGridViewTextBoxColumn.FillWeight = 150.496887F;
+            nameDataGridViewTextBoxColumn.HeaderText = "Nama";
+            nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            nameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            priceDataGridViewTextBoxColumn.DataPropertyName = "Price";
+            dataGridViewCellStyle10.Format = "Rp\".\" .";
+            dataGridViewCellStyle10.NullValue = null;
+            priceDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle10;
+            priceDataGridViewTextBoxColumn.FillWeight = 150.496887F;
+            priceDataGridViewTextBoxColumn.HeaderText = "Harga";
+            priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            priceDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // stockDataGridViewTextBoxColumn
+            // 
+            stockDataGridViewTextBoxColumn.DataPropertyName = "Stock";
+            stockDataGridViewTextBoxColumn.FillWeight = 150.496887F;
+            stockDataGridViewTextBoxColumn.HeaderText = "Stok";
+            stockDataGridViewTextBoxColumn.Name = "stockDataGridViewTextBoxColumn";
+            stockDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.White;
+            label1.Font = new Font("Consolas", 9F);
+            label1.ForeColor = Color.Brown;
+            label1.Location = new Point(12, 38);
+            label1.Name = "label1";
+            label1.Size = new Size(266, 14);
+            label1.TabIndex = 14;
+            label1.Text = "*Klik produk untuk mengedit/menghapus";
+            // 
             // Stock
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(618, 402);
+            Controls.Add(label1);
             Controls.Add(BtnRemove);
             Controls.Add(BtnEdit);
             Controls.Add(BtnAdd);
@@ -184,12 +202,13 @@
         private DataGridView DGVProduct;
         private BindingSource productBindingSource;
         private TextBox TbSearch;
-        private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn stockDataGridViewTextBoxColumn;
         private Button BtnAdd;
         private Button BtnEdit;
         private Button BtnRemove;
+        private DataGridViewTextBoxColumn Id;
+        private DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn priceDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn stockDataGridViewTextBoxColumn;
+        private Label label1;
     }
 }

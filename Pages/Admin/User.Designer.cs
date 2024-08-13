@@ -29,13 +29,12 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             BtnRemove = new Button();
             BtnEdit = new Button();
             BtnAdd = new Button();
             TbSearch = new TextBox();
             DGVUser = new DataGridView();
-            userBindingSource = new BindingSource(components);
             Id = new DataGridViewTextBoxColumn();
             nameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             userTypeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -43,6 +42,8 @@
             phoneNumberDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             usernameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             passwordDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            userBindingSource = new BindingSource(components);
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)DGVUser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)userBindingSource).BeginInit();
             SuspendLayout();
@@ -89,7 +90,7 @@
             TbSearch.Font = new Font("Consolas", 12F);
             TbSearch.Location = new Point(435, 21);
             TbSearch.Name = "TbSearch";
-            TbSearch.PlaceholderText = " Search Name";
+            TbSearch.PlaceholderText = " Cari Nama User";
             TbSearch.Size = new Size(171, 26);
             TbSearch.TabIndex = 15;
             // 
@@ -104,14 +105,14 @@
             DGVUser.BackgroundColor = Color.WhiteSmoke;
             DGVUser.BorderStyle = BorderStyle.Fixed3D;
             DGVUser.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Consolas", 10F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            DGVUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = SystemColors.Control;
+            dataGridViewCellStyle4.Font = new Font("Consolas", 10F);
+            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            DGVUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             DGVUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DGVUser.Columns.AddRange(new DataGridViewColumn[] { Id, nameDataGridViewTextBoxColumn, userTypeDataGridViewTextBoxColumn, addressDataGridViewTextBoxColumn, phoneNumberDataGridViewTextBoxColumn, usernameDataGridViewTextBoxColumn, passwordDataGridViewTextBoxColumn });
             DGVUser.DataSource = userBindingSource;
@@ -126,14 +127,10 @@
             DGVUser.TabIndex = 14;
             DGVUser.CellClick += DGVUser_CellClick;
             // 
-            // userBindingSource
-            // 
-            userBindingSource.DataSource = typeof(Models.User);
-            // 
             // Id
             // 
             Id.DataPropertyName = "Id";
-            Id.FillWeight = 38.62506F;
+            Id.FillWeight = 41.7405319F;
             Id.HeaderText = "Id";
             Id.Name = "Id";
             Id.ReadOnly = true;
@@ -141,39 +138,39 @@
             // nameDataGridViewTextBoxColumn
             // 
             nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            nameDataGridViewTextBoxColumn.FillWeight = 120.381424F;
-            nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            nameDataGridViewTextBoxColumn.FillWeight = 130.091339F;
+            nameDataGridViewTextBoxColumn.HeaderText = "Nama";
             nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             nameDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // userTypeDataGridViewTextBoxColumn
             // 
             userTypeDataGridViewTextBoxColumn.DataPropertyName = "User_Type";
-            userTypeDataGridViewTextBoxColumn.FillWeight = 120.381424F;
-            userTypeDataGridViewTextBoxColumn.HeaderText = "UserType";
+            userTypeDataGridViewTextBoxColumn.FillWeight = 130.091339F;
+            userTypeDataGridViewTextBoxColumn.HeaderText = "Tipe_User";
             userTypeDataGridViewTextBoxColumn.Name = "userTypeDataGridViewTextBoxColumn";
             userTypeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // addressDataGridViewTextBoxColumn
             // 
             addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
-            addressDataGridViewTextBoxColumn.FillWeight = 120.381424F;
-            addressDataGridViewTextBoxColumn.HeaderText = "Address";
+            addressDataGridViewTextBoxColumn.FillWeight = 130.091339F;
+            addressDataGridViewTextBoxColumn.HeaderText = "Alamat";
             addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
             addressDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // phoneNumberDataGridViewTextBoxColumn
             // 
             phoneNumberDataGridViewTextBoxColumn.DataPropertyName = "PhoneNumber";
-            phoneNumberDataGridViewTextBoxColumn.FillWeight = 120.381424F;
-            phoneNumberDataGridViewTextBoxColumn.HeaderText = "Phone";
+            phoneNumberDataGridViewTextBoxColumn.FillWeight = 130.091339F;
+            phoneNumberDataGridViewTextBoxColumn.HeaderText = "No_Telp";
             phoneNumberDataGridViewTextBoxColumn.Name = "phoneNumberDataGridViewTextBoxColumn";
             phoneNumberDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // usernameDataGridViewTextBoxColumn
             // 
             usernameDataGridViewTextBoxColumn.DataPropertyName = "Username";
-            usernameDataGridViewTextBoxColumn.FillWeight = 120.381424F;
+            usernameDataGridViewTextBoxColumn.FillWeight = 130.091339F;
             usernameDataGridViewTextBoxColumn.HeaderText = "Username";
             usernameDataGridViewTextBoxColumn.Name = "usernameDataGridViewTextBoxColumn";
             usernameDataGridViewTextBoxColumn.ReadOnly = true;
@@ -181,10 +178,25 @@
             // passwordDataGridViewTextBoxColumn
             // 
             passwordDataGridViewTextBoxColumn.DataPropertyName = "Password";
-            passwordDataGridViewTextBoxColumn.FillWeight = 120.381424F;
+            passwordDataGridViewTextBoxColumn.FillWeight = 130.091339F;
             passwordDataGridViewTextBoxColumn.HeaderText = "Password";
             passwordDataGridViewTextBoxColumn.Name = "passwordDataGridViewTextBoxColumn";
             passwordDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // userBindingSource
+            // 
+            userBindingSource.DataSource = typeof(Models.User);
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Consolas", 9F);
+            label1.ForeColor = Color.Brown;
+            label1.Location = new Point(12, 33);
+            label1.Name = "label1";
+            label1.Size = new Size(280, 14);
+            label1.TabIndex = 19;
+            label1.Text = "*Klik pengguna untuk mengedit/menghapus";
             // 
             // User
             // 
@@ -192,6 +204,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(618, 402);
+            Controls.Add(label1);
             Controls.Add(BtnRemove);
             Controls.Add(BtnEdit);
             Controls.Add(BtnAdd);
@@ -220,5 +233,6 @@
         private DataGridViewTextBoxColumn phoneNumberDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn usernameDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn passwordDataGridViewTextBoxColumn;
+        private Label label1;
     }
 }

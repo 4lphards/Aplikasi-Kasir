@@ -23,11 +23,11 @@ namespace Cashier.Pages.Actions.Users
         {
             if (string.IsNullOrEmpty(TbUsername.Text) || string.IsNullOrEmpty(TbPassword.Text) || string.IsNullOrEmpty(CbUserType.Text) || string.IsNullOrEmpty(TbAddress.Text) || string.IsNullOrEmpty(TbPhone.Text) || string.IsNullOrEmpty(TbUsername.Text) || string.IsNullOrEmpty(TbPassword.Text))
             {
-                MessageBox.Show("Please fill all the fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Isi kolom yang kosong!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            DialogResult result = MessageBox.Show("Are you sure you want to add this user?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            DialogResult result = MessageBox.Show("Anda yakin ingin menambah pengguna ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
             if (result == DialogResult.Yes)
             {

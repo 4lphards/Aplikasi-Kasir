@@ -31,7 +31,7 @@ namespace Cashier.Pages.Actions.Product
 
         private void BtnEdit_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Are you sure you want to edit this product?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            DialogResult result = MessageBox.Show("Anda yakin ingin mengedit produk ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
             if (result == DialogResult.Yes)
             {
