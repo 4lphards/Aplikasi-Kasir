@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             panel1 = new Panel();
             panel2 = new Panel();
+            BtnReport = new Button();
             BtnUser = new Button();
             BtnStock = new Button();
             BtnLogout = new Button();
@@ -50,6 +51,7 @@
             // 
             panel2.BackColor = Color.WhiteSmoke;
             panel2.Controls.Add(BtnUser);
+            panel2.Controls.Add(BtnReport);
             panel2.Controls.Add(BtnStock);
             panel2.Controls.Add(BtnLogout);
             panel2.Controls.Add(BtnHome);
@@ -58,12 +60,23 @@
             panel2.Size = new Size(70, 441);
             panel2.TabIndex = 0;
             // 
+            // BtnReport
+            // 
+            BtnReport.BackColor = Color.White;
+            BtnReport.BackgroundImage = Properties.Resources.Graph2;
+            BtnReport.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnReport.Location = new Point(15, 177);
+            BtnReport.Name = "BtnReport";
+            BtnReport.Size = new Size(40, 40);
+            BtnReport.TabIndex = 6;
+            BtnReport.UseVisualStyleBackColor = false;
+            // 
             // BtnUser
             // 
             BtnUser.BackColor = Color.White;
             BtnUser.BackgroundImage = (Image)resources.GetObject("BtnUser.BackgroundImage");
             BtnUser.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnUser.Location = new Point(15, 67);
+            BtnUser.Location = new Point(15, 122);
             BtnUser.Name = "BtnUser";
             BtnUser.Size = new Size(40, 40);
             BtnUser.TabIndex = 5;
@@ -75,7 +88,7 @@
             BtnStock.BackColor = Color.White;
             BtnStock.BackgroundImage = (Image)resources.GetObject("BtnStock.BackgroundImage");
             BtnStock.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnStock.Location = new Point(15, 122);
+            BtnStock.Location = new Point(15, 67);
             BtnStock.Name = "BtnStock";
             BtnStock.Size = new Size(40, 40);
             BtnStock.TabIndex = 3;
@@ -131,5 +144,6 @@
         private Button BtnUser;
         private Button BtnStock;
         private Button BtnLogout;
+        private Button BtnReport;
     }
 }

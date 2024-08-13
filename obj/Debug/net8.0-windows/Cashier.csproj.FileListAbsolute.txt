@@ -108,3 +108,4 @@ C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actio
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Users.UAdd.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Users.UEdit.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Product.PSearch.resources
+C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Admin.Report.resources

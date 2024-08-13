@@ -21,6 +21,46 @@ namespace Cashier.Pages
             ShowHomePage();
             Login = _login;
             User = _user;
+            CheckUser();
+        }
+
+        private void CheckUser()
+        {
+            switch (User.User_Type)
+            {
+                case "Admin": 
+                    BtnStock.Enabled = true;
+                    BtnStock.Visible = true;
+
+                    BtnUser.Enabled = true;
+                    BtnUser.Visible = true;
+
+                    BtnReport.Enabled = true;
+                    BtnReport.Visible = true;
+                    break;
+
+                case "Staf":
+                    BtnStock.Enabled = true;
+                    BtnStock.Visible = true;
+
+                    BtnUser.Enabled = false;
+                    BtnUser.Visible = false;
+
+                    BtnReport.Enabled = false;
+                    BtnReport.Visible = false;
+                    break;
+
+                case "Kasir":
+                    BtnStock.Enabled = false;
+                    BtnStock.Visible = false;
+
+                    BtnUser.Enabled = false;
+                    BtnUser.Visible = false;
+
+                    BtnReport.Enabled = false;
+                    BtnReport.Visible = false;
+                    break;
+            }
         }
 
         private void BtnLogout_Click(object sender, EventArgs e)

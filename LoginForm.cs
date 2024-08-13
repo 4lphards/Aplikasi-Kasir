@@ -27,7 +27,7 @@ namespace Cashier
 
             if (TbUsername.Text.Length == 0 || TbPassword.Text.Length == 0)
             {
-                MessageBox.Show("Username dan Password tidak boleh kosong");
+                MessageBox.Show("Username dan Password harus diisi!");
                 return;
             }
 
@@ -36,26 +36,10 @@ namespace Cashier
                 MessageBox.Show("Username atau Password salah");
                 return;
             }
-
-            switch (user.User_Type)
-            {
-                case "Admin":
-                    Main adminMainPage = new Main(this, user);
-                    adminMainPage.Show();
-                    ClearText();
-                    this.Hide();
-                    break;
-
-                case "Staff":
-                    break;
-
-                case "Cashier":
-                    break;
-
-                default:
-                    MessageBox.Show("User Type tidak ditemukan");
-                    break;
-            }
+            Main adminMainPage = new Main(this, user);
+            adminMainPage.Show();
+            ClearText();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)

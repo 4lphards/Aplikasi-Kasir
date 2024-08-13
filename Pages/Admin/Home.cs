@@ -76,12 +76,6 @@ namespace Cashier.Pages.Admin
                 SaleDate = DateTime.Now,
                 TotalPrice = int.Parse(label2.Text),
                 User = User,
-                Customer = new Customer
-                {
-                    Nama = "Anonymous",
-                    NoTelp = "0812345678919",
-                    Alamat = "help there's been a kidnapp"
-                }
             };
 
             Program.db.Sales.Add(sale);

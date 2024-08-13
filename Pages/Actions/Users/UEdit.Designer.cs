@@ -44,7 +44,7 @@
             CbUserType.BackColor = Color.WhiteSmoke;
             CbUserType.DropDownStyle = ComboBoxStyle.DropDownList;
             CbUserType.FormattingEnabled = true;
-            CbUserType.Items.AddRange(new object[] { "Admin", "Staff" });
+            CbUserType.Items.AddRange(new object[] { "Admin", "Staf", "Kasir" });
             CbUserType.Location = new Point(64, 100);
             CbUserType.Name = "CbUserType";
             CbUserType.Size = new Size(193, 31);

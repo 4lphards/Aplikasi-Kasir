@@ -13,21 +13,6 @@ namespace Cashier.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Customers",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Nama = table.Column<string>(type: "varchar(50)", nullable: false),
-                    Alamat = table.Column<string>(type: "varchar(150)", nullable: false),
-                    NoTelp = table.Column<string>(type: "varchar(50)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Customers", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Products",
                 columns: table => new
                 {
@@ -68,18 +53,11 @@ namespace Cashier.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     SaleDate = table.Column<DateTime>(type: "date", nullable: false),
                     TotalPrice = table.Column<decimal>(type: "numeric(10,2)", nullable: false),
-                    CustomerId = table.Column<int>(type: "integer", nullable: false),
                     UserId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Sales", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Sales_Customers_CustomerId",
-                        column: x => x.CustomerId,
-                        principalTable: "Customers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Sales_Users_UserId",
                         column: x => x.UserId,
@@ -127,11 +105,6 @@ namespace Cashier.Migrations
                 column: "SaleId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Sales_CustomerId",
-                table: "Sales",
-                column: "CustomerId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Sales_UserId",
                 table: "Sales",
                 column: "UserId");
@@ -148,9 +121,6 @@ namespace Cashier.Migrations
 
             migrationBuilder.DropTable(
                 name: "Sales");
-
-            migrationBuilder.DropTable(
-                name: "Customers");
 
             migrationBuilder.DropTable(
                 name: "Users");
