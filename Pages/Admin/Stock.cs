@@ -19,13 +19,30 @@ namespace Cashier.Pages
 {
     public partial class Stock : Form
     {
+        public Models.User User;
         public List<Product> Products { get; set; } = Program.db.Products.ToList();
         public DataGridViewRow SelectedRow;
-        public int RowIndex;
-        public Stock()
+        public int RowIndex = 0;
+        public Stock(Models.User _user)
         {
             InitializeComponent();
             RefreshDGV();
+            User = _user;
+        }
+
+        private void CheckUser()
+        {
+            if (User.User_Type == "Kasir")
+            {
+                BtnAdd.Enabled = false;
+                BtnRemove.Enabled = false;
+                BtnEdit.Enabled = false;
+            } else
+            {
+                BtnAdd.Enabled = true;
+                BtnRemove.Enabled = true;
+                BtnEdit.Enabled = true;
+            }
         }
         public void RefreshDGV()
         {
@@ -44,11 +61,15 @@ namespace Cashier.Pages
 
         private void DGVProduct_ContentCellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0)
+            {
+                return;
+            }
             BtnEdit.Enabled = true;
             BtnRemove.Enabled = true;
 
             RowIndex = e.RowIndex;
-
+            
             SelectedRow = DGVProduct.Rows[e.RowIndex];
         }
 

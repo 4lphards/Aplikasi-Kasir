@@ -109,3 +109,5 @@ C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actio
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Users.UEdit.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Actions.Product.PSearch.resources
 C:\Users\myalg\source\repos\Cashier\obj\Debug\net8.0-windows\Cashier.Pages.Admin.Report.resources
+C:\Users\myalg\source\repos\Cashier\bin\Debug\net8.0-windows\ScottPlot.dll
+C:\Users\myalg\source\repos\Cashier\bin\Debug\net8.0-windows\ScottPlot.WinForms.dll

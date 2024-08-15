@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             dataGridView1 = new DataGridView();
             Product_Name = new DataGridViewTextBoxColumn();
             Product_Quantity = new DataGridViewTextBoxColumn();
@@ -38,24 +38,26 @@
             productBindingSource = new BindingSource(components);
             saleDetailBindingSource = new BindingSource(components);
             panel1 = new Panel();
-            PrintStruk = new Button();
             panel4 = new Panel();
+            LabelNamaMember = new Label();
             label5 = new Label();
             label3 = new Label();
-            panel3 = new Panel();
-            label4 = new Label();
-            textBox1 = new TextBox();
+            MemberNoHp = new TextBox();
+            PrintStruk = new Button();
             panel2 = new Panel();
             label2 = new Label();
             label1 = new Label();
+            panel3 = new Panel();
+            label4 = new Label();
+            textBox1 = new TextBox();
             TambahProduct = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)saleDetailBindingSource).BeginInit();
             panel1.SuspendLayout();
             panel4.SuspendLayout();
-            panel3.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // dataGridView1
@@ -64,8 +66,8 @@
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.AllowUserToResizeColumns = false;
             dataGridView1.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Font = new Font("Consolas", 10F);
-            dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Font = new Font("Consolas", 10F);
+            dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = Color.WhiteSmoke;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -77,6 +79,7 @@
             dataGridView1.Size = new Size(419, 382);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView1.CellValueChanged += dataGridView1_CellValueChanged;
             // 
             // Product_Name
             // 
@@ -133,61 +136,116 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.Control;
-            panel1.Controls.Add(PrintStruk);
             panel1.Controls.Add(panel4);
-            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(PrintStruk);
             panel1.Controls.Add(panel2);
+            panel1.Controls.Add(panel3);
             panel1.Location = new Point(418, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(211, 438);
             panel1.TabIndex = 3;
             // 
-            // PrintStruk
-            // 
-            PrintStruk.Location = new Point(23, 358);
-            PrintStruk.Name = "PrintStruk";
-            PrintStruk.Size = new Size(170, 44);
-            PrintStruk.TabIndex = 10;
-            PrintStruk.Text = "Cetak Struk";
-            PrintStruk.UseVisualStyleBackColor = true;
-            PrintStruk.Click += PrintStruk_Click;
-            // 
             // panel4
             // 
             panel4.BackColor = Color.WhiteSmoke;
+            panel4.Controls.Add(LabelNamaMember);
             panel4.Controls.Add(label5);
             panel4.Controls.Add(label3);
-            panel4.Location = new Point(23, 234);
+            panel4.Controls.Add(MemberNoHp);
+            panel4.Location = new Point(23, 117);
             panel4.Name = "panel4";
-            panel4.Size = new Size(170, 88);
+            panel4.Size = new Size(170, 119);
             panel4.TabIndex = 9;
+            // 
+            // LabelNamaMember
+            // 
+            LabelNamaMember.AutoSize = true;
+            LabelNamaMember.BackColor = Color.WhiteSmoke;
+            LabelNamaMember.Font = new Font("Consolas", 10F);
+            LabelNamaMember.Location = new Point(77, 84);
+            LabelNamaMember.Name = "LabelNamaMember";
+            LabelNamaMember.Size = new Size(16, 17);
+            LabelNamaMember.TabIndex = 10;
+            LabelNamaMember.Text = "-";
             // 
             // label5
             // 
-            label5.Location = new Point(3, 41);
+            label5.AutoSize = true;
+            label5.BackColor = Color.WhiteSmoke;
+            label5.Font = new Font("Consolas", 10F);
+            label5.Location = new Point(65, 66);
             label5.Name = "label5";
-            label5.Size = new Size(164, 37);
-            label5.TabIndex = 8;
-            label5.Text = "Rp. 0";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
+            label5.Size = new Size(40, 17);
+            label5.TabIndex = 9;
+            label5.Text = "Nama";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.WhiteSmoke;
             label3.Font = new Font("Consolas", 10F);
-            label3.Location = new Point(42, 15);
+            label3.Location = new Point(58, 18);
             label3.Name = "label3";
-            label3.Size = new Size(80, 17);
+            label3.Size = new Size(56, 17);
             label3.TabIndex = 6;
-            label3.Text = "Kembalian";
+            label3.Text = "Member";
+            // 
+            // MemberNoHp
+            // 
+            MemberNoHp.BackColor = Color.WhiteSmoke;
+            MemberNoHp.Location = new Point(23, 38);
+            MemberNoHp.Name = "MemberNoHp";
+            MemberNoHp.PlaceholderText = " No Hp";
+            MemberNoHp.Size = new Size(127, 23);
+            MemberNoHp.TabIndex = 8;
+            MemberNoHp.TextChanged += MemberNoHp_TextChanged;
+            // 
+            // PrintStruk
+            // 
+            PrintStruk.Location = new Point(23, 382);
+            PrintStruk.Name = "PrintStruk";
+            PrintStruk.Size = new Size(170, 44);
+            PrintStruk.TabIndex = 10;
+            PrintStruk.Text = " Selesai";
+            PrintStruk.UseVisualStyleBackColor = true;
+            PrintStruk.Click += PrintStruk_Click;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.WhiteSmoke;
+            panel2.Controls.Add(label2);
+            panel2.Controls.Add(label1);
+            panel2.Location = new Point(23, 254);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(170, 81);
+            panel2.TabIndex = 7;
+            // 
+            // label2
+            // 
+            label2.Location = new Point(3, 35);
+            label2.Name = "label2";
+            label2.Size = new Size(164, 37);
+            label2.TabIndex = 7;
+            label2.Text = "0";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.WhiteSmoke;
+            label1.Font = new Font("Consolas", 10F);
+            label1.Location = new Point(34, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(96, 17);
+            label1.TabIndex = 6;
+            label1.Text = "Total Harga";
             // 
             // panel3
             // 
             panel3.BackColor = Color.WhiteSmoke;
             panel3.Controls.Add(label4);
             panel3.Controls.Add(textBox1);
-            panel3.Location = new Point(23, 122);
+            panel3.Location = new Point(23, 12);
             panel3.Name = "panel3";
             panel3.Size = new Size(170, 90);
             panel3.TabIndex = 8;
@@ -212,36 +270,6 @@
             textBox1.Size = new Size(127, 23);
             textBox1.TabIndex = 8;
             textBox1.TextChanged += textBox1_TextChanged;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.WhiteSmoke;
-            panel2.Controls.Add(label2);
-            panel2.Controls.Add(label1);
-            panel2.Location = new Point(23, 21);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(170, 81);
-            panel2.TabIndex = 7;
-            // 
-            // label2
-            // 
-            label2.Location = new Point(3, 35);
-            label2.Name = "label2";
-            label2.Size = new Size(164, 37);
-            label2.TabIndex = 7;
-            label2.Text = "0";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.WhiteSmoke;
-            label1.Font = new Font("Consolas", 10F);
-            label1.Location = new Point(34, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(96, 17);
-            label1.TabIndex = 6;
-            label1.Text = "Total Harga";
             // 
             // TambahProduct
             // 
@@ -272,10 +300,10 @@
             panel1.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -292,13 +320,15 @@
         private Panel panel3;
         private Label label4;
         private TextBox textBox1;
-        private Panel panel4;
-        private Label label3;
-        private Label label5;
         private Button PrintStruk;
         private DataGridViewTextBoxColumn Product_Name;
         private DataGridViewTextBoxColumn Product_Quantity;
         private DataGridViewTextBoxColumn TotalPrice;
         private DataGridViewButtonColumn remove;
+        private Panel panel4;
+        private Label label3;
+        private TextBox MemberNoHp;
+        private Label LabelNamaMember;
+        private Label label5;
     }
 }

@@ -8,10 +8,14 @@ namespace Cashier
         /// </summary>
         [STAThread]
         static void Main()
-        {
-            db.Database.CanConnect();
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
+        {            
+            //Check if the database is connected
+            if (!db.Database.CanConnect())
+            {
+                MessageBox.Show("Database is not connected");
+                return;
+            }
+
             ApplicationConfiguration.Initialize();
             Application.Run(new Login());
         }

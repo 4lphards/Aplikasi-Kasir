@@ -58,6 +58,14 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "ScottPlot": {
+              "target": "Package",
+              "version": "[4.1.74, )"
+            },
+            "ScottPlot.WinForms": {
+              "target": "Package",
+              "version": "[4.1.74, )"
             }
           },
           "imports": [

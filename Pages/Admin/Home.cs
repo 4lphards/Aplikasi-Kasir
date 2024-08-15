@@ -19,7 +19,11 @@ namespace Cashier.Pages.Admin
     {
         private List<Sale> CurentSale = Program.db.Sales.ToList();
         private List<SaleDetail> salesDetails = Program.db.SaleDetails.ToList();
+        private Customer? CurrentMember = null;
         private Models.User User;
+        private int Kembalian = 0;
+        private double Discount;
+
         public Home(Models.User user)
         {
             InitializeComponent();
@@ -35,10 +39,42 @@ namespace Cashier.Pages.Admin
         public void UpdateTotalPrice()
         {
             double totalPrice = 0;
+            double price = 0;
+
+            if (CurrentMember != null)
+            {
+                switch (CurrentMember.MemberType)
+                {
+                    case "Regular":
+                        Discount = 0.05;
+                        break;
+                    case "Silver":
+                        Discount = 0.1;
+                        break;
+                    case "Gold":
+                        Discount = 0.15;
+                        break;
+                    case "Platinum":
+                        Discount = 0.2;
+                        break;
+                }
+            }
+            else
+            {
+                Discount = 0;
+            }
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
-                totalPrice += double.Parse(row.Cells[2].Value.ToString());
+                if (row.Cells[2].Value != null)
+                {
+                    price += double.Parse(row.Cells[2].Value.ToString());
+
+                    if (CurrentMember != null)
+                    {
+                        totalPrice -= price * Discount;
+                    }
+                }
             }
 
             label2.Text = totalPrice.ToString();
@@ -46,6 +82,11 @@ namespace Cashier.Pages.Admin
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            if (System.Text.RegularExpressions.Regex.IsMatch(textBox1.Text, "[^0-9]"))
+            {
+                textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
+            }
+
             if (label2.Text == "0")
             {
                 return;
@@ -53,7 +94,7 @@ namespace Cashier.Pages.Admin
 
             if (string.IsNullOrEmpty(textBox1.Text))
             {
-                label5.Text = "0";
+                Kembalian = 0;
                 return;
             }
 
@@ -61,21 +102,28 @@ namespace Cashier.Pages.Admin
 
             if (kembalian < 0)
             {
-                label5.Text = "0";
+                Kembalian = 0;
             }
             else
             {
-                label5.Text = kembalian.ToString();
+                Kembalian = kembalian;
             }
         }
 
         private void PrintStruk_Click(object sender, EventArgs e)
         {
+            
+            if (dataGridView1.Rows.Count == 0)
+            {
+                MessageBox.Show("Tidak ada barang yang dibeli", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             Sale sale = new Sale
             {
                 SaleDate = DateTime.Now,
                 TotalPrice = int.Parse(label2.Text),
-                User = User,
+                Customer = CurrentMember
             };
 
             Program.db.Sales.Add(sale);
@@ -89,6 +137,7 @@ namespace Cashier.Pages.Admin
                     Product = product,
                     Quantity = int.Parse(row.Cells[1].Value.ToString()),
                     SubTotalPrice = decimal.Parse(row.Cells[2].Value.ToString()),
+                    User = User,
                 };
 
                 Program.db.SaleDetails.Add(saleDetail);
@@ -99,45 +148,75 @@ namespace Cashier.Pages.Admin
             {
                 var product = Program.db.Products.FirstOrDefault(p => p.Name.ToLower() == row.Cells[0].Value.ToString().ToLower());
                 product.Stock -= int.Parse(row.Cells[1].Value.ToString());
+
+                Program.db.Products.Update(product);
+                Program.db.SaveChanges();
             }
 
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("================================");
-            sb.AppendLine("             Kasir App");
-            sb.AppendLine("================================");
-            sb.AppendLine("Nama Barang\tQty\tHarga");
+            sb.AppendLine("============================");
+            sb.AppendLine("             \tKasir App");
+            sb.AppendLine("============================");
+            sb.AppendLine($"User: {User.Name}");
+            sb.AppendLine("============================");
+            sb.AppendLine("Barang");
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
                 sb.AppendLine($"{row.Cells[0].Value}\t{row.Cells[1].Value}\t{row.Cells[2].Value}");
             }
-            sb.AppendLine("================================");
+            sb.AppendLine("============================");
             sb.AppendLine($"Total\t{label2.Text}");
             sb.AppendLine($"Bayar\t{textBox1.Text}");
-            sb.AppendLine($"Kembalian\t{label5.Text}");
-            sb.AppendLine("================================");
+            sb.AppendLine($"Kembalian\t{Kembalian}");
+            sb.AppendLine("============================");
             sb.AppendLine($"Tanggal\t{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")}");
-            sb.AppendLine("================================");
+            sb.AppendLine("============================");
             sb.AppendLine("Terima kasih telah berbelanja di Kasir App");
-            sb.AppendLine("================================");
+            sb.AppendLine("============================");
 
             MessageBox.Show(sb.ToString());
 
             dataGridView1.Rows.Clear();
             label2.Text = "0";
             textBox1.Text = string.Empty;
-            label5.Text = "0";
+            Kembalian = 0;
             UpdateTotalPrice();
 
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            // check if the button column are clicked
             if (e.ColumnIndex == 3)
             {
                 dataGridView1.Rows.RemoveAt(e.RowIndex);
                 UpdateTotalPrice();
             }
+        }
+
+        private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            UpdateTotalPrice();
+        }
+
+        private void MemberNoHp_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(MemberNoHp.Text, "[^0-9]"))
+            {
+                MemberNoHp.Text = MemberNoHp.Text.Remove(MemberNoHp.Text.Length - 1);
+            }
+
+            CurrentMember = Program.db.Customers.FirstOrDefault(c => c.PhoneNumber == MemberNoHp.Text);
+
+            if (CurrentMember != null)
+            {
+                LabelNamaMember.Text = CurrentMember.Name;
+            }
+            else
+            {
+                LabelNamaMember.Text = "-";
+            }
+
+            UpdateTotalPrice();
         }
     }
 }

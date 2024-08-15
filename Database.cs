@@ -14,6 +14,7 @@ namespace Cashier
         public DbSet<Sale> Sales { get; set; }
         public DbSet<SaleDetail> SaleDetails { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -28,6 +29,7 @@ namespace Cashier
             Sale.CreateModel(modelBuilder);
             SaleDetail.CreateModel(modelBuilder);
             User.CreateModel(modelBuilder);
+            Customer.CreateModel(modelBuilder);
         }
     }
 }

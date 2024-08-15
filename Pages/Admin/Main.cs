@@ -28,7 +28,7 @@ namespace Cashier.Pages
         {
             switch (User.User_Type)
             {
-                case "Admin": 
+                case "Admin":
                     BtnStock.Enabled = true;
                     BtnStock.Visible = true;
 
@@ -39,26 +39,15 @@ namespace Cashier.Pages
                     BtnReport.Visible = true;
                     break;
 
-                case "Staf":
+                case "Kasir":
                     BtnStock.Enabled = true;
                     BtnStock.Visible = true;
 
                     BtnUser.Enabled = false;
                     BtnUser.Visible = false;
 
-                    BtnReport.Enabled = false;
-                    BtnReport.Visible = false;
-                    break;
-
-                case "Kasir":
-                    BtnStock.Enabled = false;
-                    BtnStock.Visible = false;
-
-                    BtnUser.Enabled = false;
-                    BtnUser.Visible = false;
-
-                    BtnReport.Enabled = false;
-                    BtnReport.Visible = false;
+                    BtnReport.Enabled = true;
+                    BtnReport.Visible = true;
                     break;
             }
         }
@@ -76,7 +65,7 @@ namespace Cashier.Pages
 
         private void BtnStock_Click(object sender, EventArgs e)
         {
-            Stock adminStockPage = new Stock();
+            Stock adminStockPage = new Stock(User);
             adminStockPage.TopLevel = false;
             adminStockPage.Dock = DockStyle.Fill;
             adminStockPage.FormBorderStyle = FormBorderStyle.None;
@@ -107,9 +96,20 @@ namespace Cashier.Pages
             adminHomePage.Show();
         }
 
+        private void BtnReport_Click(object sender, EventArgs e)
+        {
+            Report report = new Report();
+            report.TopLevel = false;
+            report.Dock = DockStyle.Fill;
+            report.FormBorderStyle = FormBorderStyle.None;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(report);
+            report.Show();
+        }
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
         {
             Login.Show();
         }
+
     }
 }

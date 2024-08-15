@@ -67,7 +67,7 @@
             TbStock.BackColor = Color.WhiteSmoke;
             TbStock.Location = new Point(12, 170);
             TbStock.Name = "TbStock";
-            TbStock.PlaceholderText = " Stock";
+            TbStock.PlaceholderText = " Stok";
             TbStock.Size = new Size(245, 31);
             TbStock.TabIndex = 4;
             // 

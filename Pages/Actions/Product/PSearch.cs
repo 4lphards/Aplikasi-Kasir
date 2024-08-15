@@ -77,7 +77,7 @@ namespace Cashier.Pages.Actions.Product
                 }
             }
 
-            home.dataGridView1.Rows.Add(product.Name, ProductQuantity, product.Price * int.Parse(ProductQuantity));
+            home.dataGridView1.Rows.Add(product.Name, int.Parse(ProductQuantity), product.Price * int.Parse(ProductQuantity));
 
             home.UpdateTotalPrice();
 

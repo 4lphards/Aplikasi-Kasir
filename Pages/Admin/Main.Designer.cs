@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             panel1 = new Panel();
             panel2 = new Panel();
-            BtnReport = new Button();
             BtnUser = new Button();
+            BtnReport = new Button();
             BtnStock = new Button();
             BtnLogout = new Button();
             BtnHome = new Button();
@@ -60,28 +60,29 @@
             panel2.Size = new Size(70, 441);
             panel2.TabIndex = 0;
             // 
-            // BtnReport
-            // 
-            BtnReport.BackColor = Color.White;
-            BtnReport.BackgroundImage = Properties.Resources.Graph2;
-            BtnReport.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnReport.Location = new Point(15, 177);
-            BtnReport.Name = "BtnReport";
-            BtnReport.Size = new Size(40, 40);
-            BtnReport.TabIndex = 6;
-            BtnReport.UseVisualStyleBackColor = false;
-            // 
             // BtnUser
             // 
             BtnUser.BackColor = Color.White;
             BtnUser.BackgroundImage = (Image)resources.GetObject("BtnUser.BackgroundImage");
             BtnUser.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnUser.Location = new Point(15, 122);
+            BtnUser.Location = new Point(15, 177);
             BtnUser.Name = "BtnUser";
             BtnUser.Size = new Size(40, 40);
             BtnUser.TabIndex = 5;
             BtnUser.UseVisualStyleBackColor = false;
             BtnUser.Click += BtnUser_Click;
+            // 
+            // BtnReport
+            // 
+            BtnReport.BackColor = Color.White;
+            BtnReport.BackgroundImage = Properties.Resources.Graph2;
+            BtnReport.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnReport.Location = new Point(15, 122);
+            BtnReport.Name = "BtnReport";
+            BtnReport.Size = new Size(40, 40);
+            BtnReport.TabIndex = 6;
+            BtnReport.UseVisualStyleBackColor = false;
+            BtnReport.Click += BtnReport_Click;
             // 
             // BtnStock
             // 
@@ -110,7 +111,7 @@
             // BtnHome
             // 
             BtnHome.BackColor = Color.White;
-            BtnHome.BackgroundImage = (Image)resources.GetObject("BtnHome.BackgroundImage");
+            BtnHome.BackgroundImage = Properties.Resources.Cart;
             BtnHome.BackgroundImageLayout = ImageLayout.Zoom;
             BtnHome.Location = new Point(15, 12);
             BtnHome.Name = "BtnHome";
@@ -126,6 +127,7 @@
             ClientSize = new Size(704, 441);
             Controls.Add(panel1);
             Controls.Add(panel2);
+            Font = new Font("Consolas", 10F);
             MaximizeBox = false;
             MaximumSize = new Size(720, 480);
             MinimumSize = new Size(720, 480);

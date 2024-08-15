@@ -12,6 +12,7 @@ namespace Cashier.Models
         public int Id { get; set; }
         public Product Product { get; set; }
         public Sale Sale { get; set; }
+        public User User { get; set; }
         public int Quantity { get; set; }
         public decimal SubTotalPrice { get; set; }
 
@@ -25,6 +26,7 @@ namespace Cashier.Models
                 e.Property(e => e.SubTotalPrice).HasColumnType("decimal(10,2)").IsRequired();
                 e.HasOne(e => e.Product);
                 e.HasOne(e => e.Sale);
+                e.HasOne(e => e.User);
             });
         }
     }
